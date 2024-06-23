@@ -1,0 +1,117 @@
+body{
+    background-color: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+.text {
+    background-color: rgba(0, 0, 0, 0.253);
+    padding: 10px; 
+    border-radius: 20px; 
+    color: white; 
+    font-size:larger;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    font-family: "Josefin Sans", sans-serif;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+
+.cabecalho{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: medium;
+}
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+
+
+.navbar-brand img {
+    max-width: 120px;
+    height: auto;
+}
+
+.logo{
+    width: 290px;
+    flex-direction: column;
+    line-height: 10px;
+    position: absolute;
+    top: 5;
+    left: 0;
+    
+    
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: -1;
+}
+
+.navbar-custom .nav-link {
+    color: #2ceaff; 
+    transition: color 0.3s ease; 
+}
+
+.navbar-custom .nav-link:hover {
+    color: #ffcc00; 
+}
+
+.dropdown-menu .dropdown-item {
+    color: #000000; 
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #ffcc00; 
+    color: #03045e; 
+}
+
+
+@media (max-width: 768px) {
+    .background-video {
+        top: 50%;
+        left: 82%;
+        width: auto;
+        height: 100%;
+        object-fit: cover;
+        transform: translate(-50%, -50%);
+    }
+}

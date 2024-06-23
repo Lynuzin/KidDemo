@@ -1,0 +1,41 @@
+.card-body{
+    background-color: transparent;
+    background-color: #416EF2; 
+    border: none; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease; 
+
+}
+
+.card button{
+  color: white;
+}
+
+.card-img-top {
+    max-width: 100%; 
+}
+
+@media (max-width: 576px) {
+    .card-img-top {
+      max-width: 100%; 
+    }
+  }
+
+  .card {
+    border-radius: 50px; 
+    border: #069fff;
+}
+
+.card-body {
+    position: relative; 
+    z-index: 1;
+}
+
+.card-title{
+  font-family: "Space Mono", monospace;
+  
+}
+.card-text{
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
