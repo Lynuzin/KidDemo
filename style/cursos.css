@@ -1,10 +1,17 @@
 .card-body{
     background-color: transparent;
-    background-color: #416EF2; 
+    background-color: #6188ff; 
     border: none; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     transition: background-color 0.3s ease; 
 
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
 }
 
 .card button{
@@ -24,6 +31,7 @@
   .card {
     border-radius: 50px; 
     border: #069fff;
+    top: 50px;
 }
 
 .card-body {
@@ -33,9 +41,14 @@
 
 .card-title{
   font-family: "Space Mono", monospace;
+  color: blue;
   
 }
 .card-text{
-  font-family: "Poppins", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   color: white;
+}
+
+.card{
+  width: 350px;
 }
