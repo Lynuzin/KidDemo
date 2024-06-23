@@ -1,11 +1,15 @@
 .card-body{
-    background-color: transparent;
-    background-color: #6188ff; 
+    background-color: #010326;
     border: none; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     transition: background-color 0.3s ease; 
-
 }
+
+.transparent-card {
+  background-color: transparent; /* Define o fundo como transparente */
+  border: 2px solid #17a2b8; /* Adiciona uma borda de 2px sólida com cor azul (#17a2b8) */
+}
+
 
 body, html {
   height: 100%;
@@ -16,6 +20,7 @@ body, html {
 
 .card button{
   color: white;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .card-img-top {
@@ -29,9 +34,10 @@ body, html {
   }
 
   .card {
-    border-radius: 50px; 
+    border-radius: 80px; 
     border: #069fff;
     top: 50px;
+    left: 28px;
 }
 
 .card-body {
@@ -39,10 +45,9 @@ body, html {
     z-index: 1;
 }
 
-.card-title{
+.card .card-body .card-title {
   font-family: "Space Mono", monospace;
-  color: blue;
-  
+  color: #26F3DD !important;
 }
 .card-text{
   font-family: "Josefin Sans", sans-serif;
