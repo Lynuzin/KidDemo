@@ -30,7 +30,6 @@
     margin-bottom: 0.5rem;
 }
 
-/* Botão */
 .btn-outline-primary {
     color: #007bff;
     border-color: #007bff;
@@ -41,16 +40,3 @@
     color: #fff;
 }
 
-/* Rodapé */
-.footer {
-    background-color: #f8f9fa;
-    padding: 1rem 0;
-}
-
-.footer .text-muted {
-    margin: 0;
-}
-.text-center{
-    color: #fff;
-    font-family: "Space Mono", monospace ;
-}
